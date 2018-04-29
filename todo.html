@@ -35,10 +35,10 @@
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="todo.html">Todo erstellen</a>
+					<a class="nav-link" href="todo.html">TODO erstellen</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="tutorial.html">To-Do Tutorial</a>
+					<a class="nav-link" href="tutorial.html">How To</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="impressum.html">Impressum</a>
@@ -51,7 +51,24 @@
 
 	<section class="mainpage">
 		
-		 <h1>Neuen Eintrag anlegen</h1> 
+		 <h1>TODO erstellen</h1> 
+
+		 <form>
+		  <div class="form-group">
+		    <label>TODO</label>
+		    <input class="form-control" id="todo" placeholder="Beschreibung">
+		  </div>
+		  <div class="form-group">
+		    <label>Deadline</label>
+		    <input type="date" class="form-control" id="deadline">
+		  </div>
+		  <div>
+		  	<label>Fortschritt (in %)</label>
+		  	<input class="form-control" id="fortschritt" placeholder="1 - 100">
+		  </div>
+		  <br>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
 
 	</section>
 
